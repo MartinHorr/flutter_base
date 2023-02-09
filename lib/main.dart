@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 void main() {
   runApp(const MyApp());
@@ -102,6 +103,13 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            SizedBox(
+                width: 18,
+                height: 18,
+                child: Image.asset("assets/images/icons/Location_icon.png")),
+            const SizedBox(
+              width: 3,
+            )
           ],
         ),
       ),
